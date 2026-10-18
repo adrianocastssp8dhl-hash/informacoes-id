@@ -3,9 +3,9 @@
 // Lê os IDs pendentes da aba "IDs" da planilha, busca cada pacote e grava nas abas
 // "Historico" e "Processos SC".
 (async () => {
-  // ======== CONFIGURE AQUI (uma vez) ========
-  const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxn_-FntrY1QVO6c9Lib55yWs3bFfaA4v9wfA9AzIahEMYC-q21q47KRM-9bpkWsGz3dQ/exec';
-  const TOKEN = '2a906016b73f446da494';
+  // ======== valores vêm do .env: rode gerar-snippet.ps1 e use o snipet.local.js ========
+  const WEBAPP_URL = '__WEBAPP_URL__';
+  const TOKEN = '__TOKEN__';
   // ==========================================
   const CONCORRENCIA = 4;   // pacotes buscados ao mesmo tempo
   const LOTE = 50;          // pacotes enviados à planilha por vez
